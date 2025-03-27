@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rock.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Gamerr</div>
+        <ul class="nav-links">
+            <li><a href="../home.html">Home</a></li>
+            <li><a href="../games.html">Games</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <div class="content">
+        <h1>Rock-Paper-Scissors Game</h1>
+        <p>Play with the legendary Computer Ji</p>
+
+        <div class="game-box">
+            <div class="game-icons">
+                <img src="data/rock.png" alt="Rock" class="choice" id="rock">
+                <img src="data/paper.png" alt="Paper" class="choice" id="paper">
+                <img src="data/scissors.png" alt="Scissors" class="choice" id="scissor">
+            </div>
+        </div>
+
+        <div class="scoreboard">
+            <h2>Scoreboard</h2>
+            <div class="scores">
+                <div class="score">
+                    <h3>User</h3>
+                    <p class="user-score">0</p>
+                </div>
+                <div class="score">
+                    <h3>Computer</h3>
+                    <p class="computer-score">0</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Messages Container -->
+        <div class="game-messages">
+            <p id="message">Make your move!</p>
+        </div>
+    </div>
+
+    <script src="rock.js"></script>
+</body>
+</html>

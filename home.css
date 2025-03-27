@@ -1,0 +1,93 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1B263B;
+    color: white;
+    text-align: center;
+}
+
+/* Navigation Bar */
+#abraham-styles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23395B;
+    padding: 15px 20px;
+}
+
+#abraham-styles .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Intro Section */
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 80%;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+/* Increased font size for the paragraph */
+.intro-text {
+    font-size: 1.3rem; /* Increased font size */
+    line-height: 1.6;
+    flex: 1;
+}
+
+/* Adjust image size */
+.intro-image {
+    width: 40%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-image {
+        width: 80%;
+    }
+}
